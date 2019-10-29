@@ -1,0 +1,35 @@
+{
+  "name": "graphql-chat",
+  "version": "1.0.0",
+  "description": "GraphQL Chat PoC",
+  "main": "dist/index.js",
+  "author": "Tomek Łaziuk <tlaziuk@gmail.com> (https://tlaziuk.com/)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "core-js": "^3.0.0",
+    "graphql": "^14.0.0",
+    "reflect-metadata": "*",
+    "sqlite3": "*",
+    "tslib": "^1.0.0",
+    "type-graphql": "<1.0.0",
+    "typedi": "<1.0.0",
+    "typeorm": "<1.0.0",
+    "typeorm-typedi-extensions": "<1.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "nodemon": "^1.0.0",
+    "ts-node": "^8.0.0",
+    "typescript": "~3.6.0"
+  }
+}

@@ -1,0 +1,5 @@
+.[Ss]ession.vim
+/node_modules/
+/dist/
+*.sqlite
+*.log
